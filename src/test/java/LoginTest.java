@@ -19,7 +19,8 @@ public class LoginTest {
 		driver.manage().window().maximize();
 				
 	}
-	@Test
+	@Test// Annotation
+	
 	public void doLogin() {
 		
 		driver.findElement(By.id("identifierId")).sendKeys("konkaveni@gmail.com");
